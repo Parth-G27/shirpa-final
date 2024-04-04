@@ -1,0 +1,5 @@
+# Ignore images folder inside the app folder
+/app/images/
+
+# Ignore other files
+
