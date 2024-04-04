@@ -1,0 +1,55 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scroll to Top Button</title>
+    <style>
+        .new{
+            opacity: 1;
+        }
+        .old{
+            opacity: 0;
+        }
+    </style>
+    
+</head>
+
+<body>
+   
+    <a href="index.html" onclick='return check()'>check</a>
+
+    <a href="index.html" onclick='return change()'>change</a>
+
+    <!-- <button onclick="change()">change 2</button> -->
+
+    <div class="new">One</div>
+
+    <div class="old" id="www">Two</div>
+
+    <script type='text/javascript'>
+    
+    function check()
+    {
+        console.log("shine")
+        return false;
+    }
+
+
+
+    function change(){
+        console.log("Changing !")
+        var a = document.getElementById("www");
+        a.style.opacity = 1
+        console.log("Changed")
+        return false;
+
+    }
+    
+    </script>
+   
+</body>
+
+</html>

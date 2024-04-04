@@ -1,0 +1,165 @@
+.products-dropdown-cover{
+
+  /* display: flex;
+  flex-direction: row; */
+  
+  display: flex;
+  flex-direction: row;
+
+
+  position: sticky;
+  top: 0px;
+  background-color: #f8f8f8;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-left: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  justify-content: center;
+
+  
+
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown a {
+  width: 250px;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #da2b24;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #f8f8f8;
+  border: 1px solid #da2b24;
+  border-radius: 5px;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Style for the nested dropdowns */
+.nested-dropdown {
+  position: relative;
+}
+
+.nested-dropdown a {
+  background-color: #f8f8f8;
+  
+}
+
+.nested-dropdown-content {
+  
+  display: none;
+  position: absolute;
+  top: 0; /* Adjusted to come down from the height of the original dropdown */
+  left: 100%;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.nested-dropdown-content a{
+  /* background-color: #e0e0e0; */
+  background-color: #f8f8f8;
+
+}
+
+.double-nested-dropdown {
+  position: relative;
+}
+
+.double-nested-dropdown a {
+  /* background-color: #e0e0e0; */
+  background-color: #f8f8f8;
+
+}
+
+.double-nested-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0; /* Adjusted to come down from the height of the original dropdown */
+  left: 100%;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.double-nested-dropdown-content a{
+  /* background-color: #d0d0d0; */
+  background-color: #f8f8f8;
+
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content,
+.nested-dropdown:hover .nested-dropdown-content,
+.double-nested-dropdown:hover .double-nested-dropdown-content {
+  display: block;
+}
+
+/* Highlight on hover */
+.dropdown a:hover,
+.nested-dropdown a:hover,
+.double-nested-dropdown a:hover {
+  color: #f8f8f8;
+  background-color: #da2b24;
+}
+
+
+
+/* @media only screen and (max-width: 600px) {
+  
+} */
+
+@media screen and (max-width: 767px) {
+  .products-dropdown-cover{
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+  
+  .dropdown{
+    width:45%;
+    font-size: 12px; 
+  }
+  .dropdown a {
+    width:100%;
+    
+    
+  }
+  .dropdown-content{
+    min-width: 50%;
+    font-size: 12px;
+
+  }
+  .nested-dropdown-content{
+    min-width: 60%;
+    font-size: 12px;
+
+  }
+
+  .double-nested-dropdown-content{
+    min-width: 50px;
+    font-size: 12px;
+  }
+ 
+}
