@@ -2588,6 +2588,12 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.project_image._03 {
+  background-image: url('../images/Surat_International_Airport.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .paragraph_title {
   font-size: 24px;
@@ -4910,7 +4916,7 @@ li {
     height: 12vh;
   }
 
-  .project_image._02, .project_image._01 {
+  .project_image._02, .project_image._01 .project_image._03 {
     height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -5546,7 +5552,7 @@ li {
     font-size: 16px;
   }
 
-  .project_image._02, .margin-tb-30, .project_wrapper {
+  .project_image._02, .project_image._03, .margin-tb-30, .project_wrapper {
     margin-top: 10px;
     margin-bottom: 10px;
   }
