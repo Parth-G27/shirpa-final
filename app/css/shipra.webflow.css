@@ -787,7 +787,7 @@ li {
 }
 
 .business-at-a-glance {
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/08.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/Banner\ Home\ Map.jpg');
   background-position: 0 0, 50% 60%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1886,12 +1886,18 @@ li {
 }
 
 .page_banner.products{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgb(0, 0, 0)), url('../images/Extra\ 3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgb(0, 0, 0)), url('../images/Our-Products-Banner-final.png');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
-.page_banner.about-us, .page_banner.contact-us {
+.page_banner.contact-us{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgb(0, 0, 0)), url('../images/Contact-us-banner.png');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+.page_banner.about-us, .page_banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.062), rgb(0, 0, 0)), url('../images/about-us-header-hero.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
@@ -3109,6 +3115,12 @@ li {
 
 .partners-logo-placeholder._10 {
   background-image: url('../images/JOLLY.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+.partners-logo-placeholder._11 {
+  background-image: url('../images/MYK-Arment.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100px;
