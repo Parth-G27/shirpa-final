@@ -3180,6 +3180,30 @@ li {
   background-repeat: no-repeat;
   background-size: 120px;
 }
+.clients-logo-placeholder._08 {
+  background-image: url('../images/NAVJEEVAN-MOTORS.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120px;
+}
+.clients-logo-placeholder._09 {
+  background-image: url('../images/TATA\ PROJECTS.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120px;
+}
+.clients-logo-placeholder._010 {
+  background-image: url('../images/psp.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120px;
+}
+.clients-logo-placeholder._011 {
+  background-image: url('../images/Sumul.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120px;
+}
 
 .clients-logo-placeholder._01 {
   background-image: url('../images/vishal.webp');
@@ -3227,7 +3251,7 @@ li {
   background-image: url('../images/GNFC.png');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: 10 0px;
+  background-size: 80px;
 }
 
 .clients-logo-placeholder.corp_08 {
