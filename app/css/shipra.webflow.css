@@ -2563,7 +2563,7 @@ li {
 .project_title {
   color: #da2b24;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 600;
 }
@@ -2590,6 +2590,25 @@ li {
 }
 .project_image._03 {
   background-image: url('../images/Surat_International_Airport.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project_image._04 {
+  background-image: url('../images/Schmitten.jpeg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.project_image._05 {
+  background-image: url('../images/jainam.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.project_image._06 {
+  background-image: url('../images/Vimal\ Agro.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4916,7 +4935,7 @@ li {
     height: 12vh;
   }
 
-  .project_image._02, .project_image._01 .project_image._03 {
+  .project_image._02, .project_image._01 .project_image._03 .project_image._04 .project_image._05 .project_image._06 {
     height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -5552,7 +5571,7 @@ li {
     font-size: 16px;
   }
 
-  .project_image._02, .project_image._03, .margin-tb-30, .project_wrapper {
+  .project_image._02, .project_image._03, .project_image._04, .project_image._05, .project_image._06, .margin-tb-30, .project_wrapper {
     margin-top: 10px;
     margin-bottom: 10px;
   }
