@@ -829,7 +829,7 @@ li {
   position: relative; 
   height: 800px;
   overflow: hidden; 
-  /* display: block; */
+  /* display: block;  */
 }
 .slide-image-2 { 
 	height: 800px; 
