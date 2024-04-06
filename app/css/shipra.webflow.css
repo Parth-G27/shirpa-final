@@ -1182,8 +1182,9 @@ li {
 
 .link-block {
   color: #2d2e2d;
-  padding: 20px 20px 20px 0;
+  padding: 5px 5px 5px 0;
   text-decoration: none;
+  /* margin: 5px; */
 }
 
 .container-2 {
@@ -3838,6 +3839,7 @@ li {
 .logo-tagline-no-hover {
   text-align: left;
   margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 16px;
   font-style: italic;
   color: #000;
@@ -4644,7 +4646,7 @@ li {
   }
 
   .footer_column-01 {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .link-block {
