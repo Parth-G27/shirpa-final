@@ -1139,6 +1139,7 @@ li {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   margin-top: 10px;
+  margin-bottom: 30px;
   padding-left: 60px;
   padding-right: 60px;
   display: grid;
