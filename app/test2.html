@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highlight Path</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script >
+    // Initialize the map
+var map = L.map('map').setView([40.7128, -74.0060], 6);
+
+// Add the base map
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+}).addTo(map);
+
+// Define New York and Washington DC coordinates
+var newyork = [40.7128, -74.0060];
+var washington = [38.9072, -77.0369];
+
+// Define the path between New York and Washington DC
+var pathCoordinates = [newyork, washington];
+
+// Create a polyline and add it to the map
+var polyline = L.polyline(pathCoordinates, {color: 'red'}).addTo(map);
+
+// Zoom the map to the polyline bounds
+map.fitBounds(polyline.getBounds());
+
+  </script>
+</body>
+</html>

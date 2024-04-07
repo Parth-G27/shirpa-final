@@ -827,7 +827,7 @@ li {
 
 .background-video {
   position: relative; 
-  height: 800px;
+  height: 600px;
   overflow: hidden; 
   /* display: block;  */
 }
@@ -1138,7 +1138,7 @@ li {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
-  margin-top: 40px;
+  margin-top: 10px;
   padding-left: 60px;
   padding-right: 60px;
   display: grid;
@@ -4144,6 +4144,8 @@ li {
 
   .background-video {
     height: 50vh;
+    /* margin-left: 10%;
+    margin-right: 10%; */
   }
   .slide-image-2 { 
     height: 50vh; 
@@ -5267,6 +5269,7 @@ li {
   .background-video {
     width: 100%;
     height: 50vw;
+   
   }
 
   .slide-image-2 { 
@@ -5352,7 +5355,7 @@ li {
 
   .footer_grid {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
   }
 
   .footer_column-01 {

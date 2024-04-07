@@ -505,3 +505,9 @@ element.style {
   height: 100%;
   border: none;
 }
+
+
+.video-cover-home-page{
+  margin-left: 5%;
+  margin-right: 5%;
+}
